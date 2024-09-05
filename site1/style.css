@@ -51,6 +51,10 @@ a{
     padding: 12px;
     
 }
+header{
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
 .container{
     background-color: #ffffff;
     display: flex;
@@ -59,6 +63,27 @@ a{
     justify-content: space-around;
     align-items: flex-start;
     align-content: flex-start;
+}
+.container2{
+    background-image: image();
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    align-items: flex-start;
+    align-content:flex-start ;
+    border: solid currentColor;
+    margin-top: 100px;
+    
+    
+}
+.sobre_magic{
+    border: solid currentColor;
+    border-collapse: separate;
+    background-color: white;
+    
+    
+    
 }
 .img{
     background-color: #575353;
@@ -76,4 +101,9 @@ img{
 img.logo{
     width: 300px;
     height: 150px;
+}
+img.img_do_inicio{
+    width: 280px;
+    height: 150px;
+    margin-bottom: 10px;
 }
